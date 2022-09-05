@@ -1,1 +1,10 @@
-== Experience with CD Tools
+## Experience with CD Tools
+
+### Usage
+
+```
+$ kubectl apply -f istio/
+$ minikube ip
+```
+
+### Author

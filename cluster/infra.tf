@@ -7,6 +7,15 @@ terraform {
   }
 }
 
+# Set the variable value in *.tfvars file
+# or using -var="do_token=..." CLI option
+variable "do_token" {}
+
+# Configure the DigitalOcean Provider
+provider "digitalocean" {
+  token = var.do_token
+}
+
 resource "digitalocean_kubernetes_cluster" "mylab" {
   name   = "mylab"
   region = "sfo3"

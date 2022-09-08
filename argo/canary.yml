@@ -79,8 +79,11 @@ spec:
           duration: "1m"
       - setWeight: 30
       - pause:
-          duration: "2m"    
+          duration: "1m"    
       - setWeight: 70
+      - pause:
+          duration: "1m"
+      - setWeight: 100
       - pause: {}
 ---
 apiVersion: v1

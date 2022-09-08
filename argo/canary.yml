@@ -73,9 +73,9 @@ spec:
     canary:
       stableService: realtimeapp-stable
       canaryService: realtimeapp-canary
-      trafficRouting:
-        nginx:
-          stableIngress: realtimeapp-ingress
+      #trafficRouting:
+        #nginx:
+          #stableIngress: realtimeapp-ingress
       steps:
       - setWeight: 50
       - pause: {}
@@ -106,7 +106,7 @@ spec:
   selector:
     app: realtime
 ---
-apiVersion: extensions/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: realtimeapp-ingress

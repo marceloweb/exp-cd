@@ -116,10 +116,12 @@ metadata:
     nginx.ingress.kubernetes.io/affinity-mode: persistent
 spec:
   rules:
-  - host: real.baeke.info
-    http:
+  - http:
       paths:
       - path: /
+        pathType: Prefix
         backend:
-          serviceName: realtimeapp-stable
-          servicePort: 80
+          service:
+            name: realtimeapp-stable
+            port:
+              number: 80

@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: realtimeapp
-        image: marceloweb/app-demo-html:v1.0-0
+        image: marceloweb/app-demo-html:v1.0-1
         resources:
           requests:
             cpu: 25m

@@ -20,8 +20,8 @@ resource "digitalocean_kubernetes_cluster" "mylab" {
 
   node_pool {
     name       = "worker-pool"
-    size       = "s-1vcpu-1gb"
-    node_count = 3
+    size       = "s-1vcpu-2gb"
+    node_count = 1
 
     taint {
       key    = "workloadKind"

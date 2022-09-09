@@ -44,8 +44,6 @@ spec:
       - setWeight: 70
       - pause:
           duration: "1m"
-      - setWeight: 100
-      - pause: {}
 ---
 apiVersion: v1
 kind: Service

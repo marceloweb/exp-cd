@@ -1,5 +1,10 @@
 ## Experience with CD Tools
 
+### Install Ingress Controller
+```
+$ minikube addons enable ingress
+```
+
 ### Install Istio
 
 ```

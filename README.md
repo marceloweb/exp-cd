@@ -31,8 +31,8 @@ $ kubectl apply -n argo-rollouts -f https://github.com/argoproj/argo-rollouts/re
 ### Verify Rollouts
 
 ```
-$ kubectl argo rollouts get rollout realtime
-$ 
+$ kubectl argo rollouts get rollout realtime 
 ```
 
 ### Author
+* Marcelo Oliveira <marceloweb.info>

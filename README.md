@@ -35,4 +35,4 @@ $ kubectl argo rollouts get rollout realtime
 ```
 
 ### Author
-* Marcelo Oliveira <marceloweb.info>
+* Marcelo Oliveira - [marceloweb.info](https://marceloweb.info)
